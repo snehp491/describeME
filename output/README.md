@@ -1,29 +1,29 @@
 # Test Project ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
-  Test project edescription
+  project desc
   ## Table of Contents
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [License](#License)
-  * [Tests](#Tests)
-  * [Contributing](#Contributing)
-  * [Questions](#Questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Tests](#tests)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
     
-  ## Installation
-  npm install
+  ## Installation <a id="installation"></a>
+  npm run start 
   
-  ## Usage
-  npm run start
+  ## Usage <a id="usage"></a>
+  npm run start 
   
-  ## License
-  This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) license. 
+  ## License <a id="license"></a>
+  This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) license.  
   
-  ## Tests 
-  npm run tests
+  ## Tests <a id="tests"></a>
+  test
 
-  ## Contributing
-  raise a PR
+  ## Contributing <a id="contributing"></a>
+  raise pr
   
-  ## Questions
-  Follow on [GitHub](https://github.com/undefined) or via email [snehp491@gmail.com](mailto:snehp491@gmail.com)
+  ## Questions <a id="questions"></a>
+  Follow on [GitHub](https://github.com/npm ) or via email [rest](mailto:rest)

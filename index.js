@@ -14,7 +14,17 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // Tests,
 // and Questions
 const questions = [
-    {type: 'input', name: 'title'}
+    {type: 'input', name: 'title'},
+    {type: 'input', name: 'description'},
+    {type: 'input', name: 'installation'},
+    {type: 'input', name: 'usage'},
+    {type: 'input', name: 'license'},
+    {type: 'input', name: 'contributing'},
+    {type: 'input', name: 'tests'},
+    {type: 'input', name: 'username'},
+    {type: 'input', name: 'email'}
+
+
 ];
 
 // TODO: Create a function to write README file

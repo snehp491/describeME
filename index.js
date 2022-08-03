@@ -34,10 +34,9 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((responses) => {
-        console.log(responses);
+        console.log(generateMarkdown(responses));
     });
 }
 
-console.log(generateMarkdown({title: 'MIT'}));
 // Function call to initialize app
 init();

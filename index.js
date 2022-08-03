@@ -13,17 +13,18 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // Contributing,
 // Tests,
 // and Questions
+// Username (github)
+// Email
 const questions = [
-    {type: 'input', name: 'title'},
-    {type: 'input', name: 'description'},
-    {type: 'input', name: 'installation'},
-    {type: 'input', name: 'usage'},
-    {type: 'input', name: 'license'},
-    {type: 'input', name: 'contributing'},
-    {type: 'input', name: 'tests'},
-    {type: 'input', name: 'username'},
-    {type: 'input', name: 'email'}
-
+    {type: 'input', name: 'title', message: 'Enter your project title'},
+    {type: 'input', name: 'description', message: 'Enter a description of your project'},
+    {type: 'input', name: 'installation', message: 'Enter installation instructions'},
+    {type: 'input', name: 'usage', message: 'Enter a usage snippet'},
+    {type: 'input', name: 'license', message: 'Enter your project license'},
+    {type: 'input', name: 'contributing', message: 'Describe how to contribute to this project'},
+    {type: 'input', name: 'tests', message: 'Describe how to run tests'},
+    {type: 'input', name: 'username', message: 'Provide your GitHub username'},
+    {type: 'input', name: 'email', message: 'Provide your contact email'}
 
 ];
 
@@ -37,5 +38,6 @@ function init() {
     });
 }
 
+console.log(generateMarkdown({title: 'MIT'}));
 // Function call to initialize app
 init();
